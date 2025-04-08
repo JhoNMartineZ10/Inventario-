@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import getConnection from "./../db/database.js"
 const getCategorias = async (req, res)=>{
     try {
@@ -8,6 +9,10 @@ const getCategorias = async (req, res)=>{
         console.error("error 500");
     }
     
+=======
+const getCategorias =(req, res)=>{
+    res.json({"Categoria":"Electrodomesticos"})
+>>>>>>> e2ab291bbac683f3e4ea318d79bcef4b296e1a66
 }
 
 export const mthodHTTP ={
